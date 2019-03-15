@@ -98,7 +98,17 @@ body {
     margin-left: 10px;
     cursor: pointer;
 }
-
+.button-signup:hover{
+    text-decoration: none;
+    color: purple;
+}
+.button-login:hover{
+    text-decoration: none;
+    color: purple;
+}
+.cart-icon:visited{
+    color: purple;
+}
 
 
 

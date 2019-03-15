@@ -87,12 +87,24 @@ body {
     cursor: pointer;
 
 }
+
 .button-signup{
 	margin-top: 10px;
  color: purple;
 	font-weight: bolder;
 	margin-left: 10px;
 	cursor: pointer;
+}
+.button-signup:hover{
+    text-decoration: none;
+    color: purple;
+}
+.button-login:hover{
+    text-decoration: none;
+    color: purple;
+}
+.cart-icon:visited{
+    color: purple;
 }
 .each-product {
         min-height: 255px;
@@ -111,9 +123,26 @@ body {
 	top: 150px;
 
 }
+.product-image-properties{
+    height: 200px;
+    width: 200px;
+    overflow: hidden;
+}
+
+ .product-image-properties:hover .images {
+     -webkit-transform: scale(1.1); 
+     transform: scale(1.1); 
+     /*margin-left: 2px;
+     padding-left: 7px;
+    */
+
+}
+
 .images{
-	height: 200px;
-	width: 200px;
+    margin-left: 5px;
+	height: 100%;
+	width: 100%;
+    object-fit: contain;
 	text-align: center;
     cursor: pointer;
 }
@@ -164,6 +193,7 @@ body {
     margin: 0 12px;
     border-radius: 2px;
     border: 1px solid #ccc;
+    text-align: center;
 }
 .each-product .product-button {
     padding: 16px;
@@ -185,6 +215,12 @@ body {
     display: flex;
     align-items: center;
     padding: 8px;
+    cursor: pointer;
+}
+.item-image:hover{
+    /*padding: 0px;
+    margin: 0px;*/
+    background-color:  rgba(221, 221, 221, 0.47);
 }
 .cart-image-properties{
 	height: 48px;
@@ -232,7 +268,22 @@ body {
     max-width: 100%;
 }
 .images:hover{
-	transition: transform .3s ease-in;
+	transition: transform .5s ease-in;
 	
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
